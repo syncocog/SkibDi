@@ -1,0 +1,95 @@
+# VoidlightEvent Configuration
+
+# Database configuration
+database:
+  host: "localhost"
+  port: 3306
+  database: "voidlight_event"
+  username: "root"
+  password: "password"
+  pool-size: 10
+
+# Event settings
+event:
+  countdown-duration: 10  # seconds
+  max-players: 8
+  min-players: 2
+  
+# Spawn locations (world coordinates)
+spawn:
+  lobby:
+    world: "world"
+    x: 0.5
+    y: 64.0
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
+    
+  # Team Red spawn points
+  red-spawns:
+    - world: "world"
+      x: 100.5
+      y: 64.0
+      z: 0.5
+      yaw: 90.0
+      pitch: 0.0
+    - world: "world"
+      x: 102.5
+      y: 64.0
+      z: 0.5
+      yaw: 90.0
+      pitch: 0.0
+    - world: "world"
+      x: 100.5
+      y: 64.0
+      z: 2.5
+      yaw: 90.0
+      pitch: 0.0
+    - world: "world"
+      x: 102.5
+      y: 64.0
+      z: 2.5
+      yaw: 90.0
+      pitch: 0.0
+      
+  # Team Blue spawn points
+  blue-spawns:
+    - world: "world"
+      x: -100.5
+      y: 64.0
+      z: 0.5
+      yaw: -90.0
+      pitch: 0.0
+    - world: "world"
+      x: -102.5
+      y: 64.0
+      z: 0.5
+      yaw: -90.0
+      pitch: 0.0
+    - world: "world"
+      x: -100.5
+      y: 64.0
+      z: 2.5
+      yaw: -90.0
+      pitch: 0.0
+    - world: "world"
+      x: -102.5
+      y: 64.0
+      z: 2.5
+      yaw: -90.0
+      pitch: 0.0
+
+# Messages
+messages:
+  prefix: "<#FF5555>Voidlight <#AAAAAA>Event <#FFFFFF>» "
+  player-joined-queue: "<green>You've been added to the event queue!"
+  match-starting: "<yellow>Match starting in <countdown> seconds!"
+  match-started: "<green>Match has started! Fight!"
+  match-cancelled: "<red>Match has been cancelled!"
+  victory-red: "<#FF5555>Team Red <#FFFFFF>wins!"
+  victory-blue: "<#5555FF>Team Blue <#FFFFFF>wins!"
+  no-permission: "<red>You don't have permission to use this command!"
+  invalid-args: "<red>Invalid arguments! Use: /event start <player1> <player2> [player3] ... [player8]"
+  player-not-found: "<red>Player <player> not found!"
+  match-in-progress: "<red>A match is already in progress!"
+  no-match-active: "<red>No match is currently active!"

@@ -1,0 +1,49 @@
+# Messages Configuration for VoidlightEvent
+
+# General messages
+no-permission: "<red>You don't have permission to use this command!"
+invalid-usage: "<red>Invalid usage! Use: <yellow>{usage}"
+player-not-found: "<red>Player <yellow>{player} <red>not found!"
+match-already-active: "<red>A match is already in progress!"
+no-active-match: "<red>No active match to cancel!"
+
+# Queue messages
+player-joined-queue: "<green>You have been added to the event queue!"
+player-left-queue: "<yellow>You have been removed from the event queue."
+
+# Match messages
+match-starting: "<green>Match starting! Get ready!"
+match-cancelled: "<red>The current match has been cancelled."
+match-ended: "<yellow>Match ended!"
+victory-red: "<red>🎉 RED TEAM WINS! 🎉"
+victory-blue: "<blue>🎉 BLUE TEAM WINS! 🎉"
+
+# Countdown messages
+countdown-title: "<yellow>Match Starting"
+countdown-subtitle: "<gold>{seconds}"
+countdown-chat: "<yellow>Match starting in <gold>{seconds} <yellow>seconds!"
+
+# Spectator messages
+spectator-mode-enabled: "<gray>You are now spectating the match."
+spectator-mode-disabled: "<green>You are no longer spectating."
+teleported-to-player: "<green>Teleported to <yellow>{player}<green>!"
+
+# Kit messages
+kit-given: "<green>You have received the Beast kit!"
+kit-restored: "<green>Your inventory has been restored."
+inventory-protected: "<red>You cannot modify your inventory during a match!"
+
+# Error messages
+player-not-in-queue: "<red>Player <yellow>{player} <red>is not in the queue!"
+invalid-player-count: "<red>You must specify between {min} and {max} players!"
+not-enough-players: "<red>Not enough players! Need at least {min} players."
+too-many-players: "<red>Too many players! Maximum is {max} players."
+player-not-online: "<red>Player <yellow>{player} <red>is not online!"
+database-error: "<red>Database error occurred. Please contact an administrator."
+
+# Command help
+help-header: "<green>========== <yellow>VoidlightEvent Commands <green>=========="
+help-start: "<green>/event start <player1> <player2> [player3...] <gray>- Start a match"
+help-cancel: "<green>/event cancel <gray>- Cancel the current match"
+help-spectate: "<green>/event spectate [player] <gray>- Spectate a player"
+help-footer: "<green>=============================================="

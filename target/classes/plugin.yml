@@ -1,0 +1,22 @@
+name: VoidlightEvent
+version: 1.0.0
+main: com.voidlight.event.VoidlightEventPlugin
+author: VoidlightDev
+description: PvP Event Plugin for Spigot 1.21.4
+api-version: 1.21
+website: https://github.com/voidlight/VoidlightEvent
+
+commands:
+  event:
+    description: Main event command
+    usage: /<command> <start|cancel|spectate> [args...]
+    permission: voidlight.event.admin
+    permission-message: "You don't have permission to use this command!"
+
+permissions:
+  voidlight.event.admin:
+    description: Allows access to event admin commands
+    default: op
+  voidlight.event.spectate:
+    description: Allows spectating events
+    default: true
