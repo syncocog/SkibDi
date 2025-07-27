@@ -1,0 +1,17 @@
+com/voidlight/event/managers/QueueManager.class
+com/voidlight/event/managers/MatchManager.class
+com/voidlight/event/managers/MatchManager$1.class
+com/voidlight/event/VoidlightEventPlugin.class
+com/voidlight/event/commands/EventCommand.class
+com/voidlight/event/listeners/PlayerListener.class
+com/voidlight/event/database/DatabaseManager.class
+com/voidlight/event/models/MatchState.class
+com/voidlight/event/managers/KitManager.class
+com/voidlight/event/managers/ScoreboardManager.class
+com/voidlight/event/utils/MessageUtil.class
+com/voidlight/event/managers/ScoreboardManager$1.class
+com/voidlight/event/models/Match.class
+com/voidlight/event/managers/MatchManager$2.class
+com/voidlight/event/utils/ConfigUtil.class
+com/voidlight/event/managers/SpectatorManager.class
+com/voidlight/event/models/Team.class
